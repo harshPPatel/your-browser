@@ -1,0 +1,51 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  max-width: 1240px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+  @include flex;
+
+  a {
+    color: #2e2e2e;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .nav-list {
+    list-style: none;
+    @include flex;
+
+    .nav-item {
+      margin-left: 32px;
+    }
+  }
+}
+
+// Logo
+.logo {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+
+  a {
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      span {
+        text-decoration: none;
+      }
+    }
+
+    &:hover,
+    &:active {
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}
