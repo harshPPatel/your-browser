@@ -1,5 +1,4 @@
-// Types of Browsers
-export enum Browsers {
+export enum BrowserTypes {
   Chrome = 'Chrome',
   Firefox = 'Firefox',
   Safari = 'Safari',
@@ -7,5 +6,5 @@ export enum Browsers {
   IE = 'Internet Explorer',
   Opera = 'Opera',
   Phantom = 'Phantom',
-  Other = 'Other'
+  Other = 'Other',
 }

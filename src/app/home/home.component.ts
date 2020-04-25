@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Browsers } from 'src/Enums';
-import { findBrowser } from '../../lib/browser';
+import { Browser } from '../lib/browser/browser';
+import { BrowserTypes } from '../enums/browser-types.enum';
 
 @Component({
   selector: 'app-home',
@@ -10,10 +10,10 @@ import { findBrowser } from '../../lib/browser';
 })
 export class HomeComponent implements OnInit {
 
-  browser: Browsers;
+  browser: BrowserTypes;
 
   ngOnInit(): void {
-    this.browser = findBrowser();
+    this.browser = Browser.getName();
   }
 
 }
