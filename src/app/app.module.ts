@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserIconComponent } from './browser-icon/browser-icon.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { BrowserIconComponent } from './browser-icon/browser-icon.component';
     HeaderComponent,
     HomeComponent,
     BrowserIconComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

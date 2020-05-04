@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 960px;
+  width: 95%;
+  margin: 130px auto 0;
+
+  .img-container,
+  .text-container {
+    width: 50%;
+  }
+
+  img {
+    max-height: 350px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .muted {
+    margin-bottom: 32px;
+  }
+}
+
+.text-container {
+  p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 175%;
+    letter-spacing: 1px;
+    max-width: 400px;
+    
+    &:not(.muted) {
+      color: rgba(#000, 0.85);
+    }
+
+    a {
+      transition: all 0.2s ease-in-out;
+
+      &:link,
+      &:visited {
+        color: rgba(#000, 0.85);
+      }
+
+      &:hover,
+      &:active {
+        color: rgba(#000, 0.5);
+      }
+    }
+  }
+}
