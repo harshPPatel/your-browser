@@ -4,7 +4,7 @@
 [x] About Page
 [x] 404 Page
 [x] add favicon
-[ ] make it responsive
+[x] make it responsive
 [ ] write some tests
 
 ### strecthed

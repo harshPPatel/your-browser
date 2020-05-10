@@ -6,15 +6,30 @@ main {
   width: 95%;
   margin: 130px auto 0;
 
+  @media screen and (max-width: 868px) {
+    margin-top: 80px;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .img-container,
   .text-container {
     width: 50%;
+
+    @media screen and (max-width: 868px) {
+      width: 100%;
+    }
   }
 
   img {
     max-height: 350px;
     width: auto;
     margin: 0 auto;
+
+    @media screen and (max-width: 868px) {
+      max-height: 250px;
+      margin-bottom: 50px;
+    }
   }
 
   .muted {
@@ -29,6 +44,12 @@ main {
     line-height: 175%;
     letter-spacing: 1px;
     max-width: 400px;
+
+    @media screen and (max-width: 868px) {
+      max-width: 500px;
+      width: 90%;
+      margin: 0 auto 16px;
+    }
     
     &:not(.muted) {
       color: rgba(#000, 0.85);
