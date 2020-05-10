@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserIconComponent } from './browser-icon/browser-icon.component';
 import { AboutComponent } from './about/about.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     BrowserIconComponent,
     AboutComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,

@@ -2,10 +2,10 @@
 
 [x] Home Page
 [x] About Page
-[ ] 404 Page
+[x] 404 Page
 [ ] add favicon
 [ ] make it responsive
-[ ] write tests
+[ ] write some tests
 
 ### strecthed
 [ ] improve a11y
