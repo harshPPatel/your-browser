@@ -3,7 +3,7 @@
 [x] Home Page
 [x] About Page
 [x] 404 Page
-[ ] add favicon
+[x] add favicon
 [ ] make it responsive
 [ ] write some tests
 
