@@ -5,7 +5,7 @@
 [x] 404 Page
 [x] add favicon
 [x] make it responsive
-[ ] write some tests
+[x] write some tests
 
 ### strecthed
 [ ] improve a11y
